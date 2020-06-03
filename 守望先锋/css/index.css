@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: inherit;
+}
+
+.clearfix {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.suspension {
+    height: 48px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background: url(../img/背景图.jpg) no-repeat center;
+}
+
+.column {
+    margin: 0 auto;
+    width: 1450px;
+    height: 40px;
+    background-color: rgb(42, 15, 15, 0.5);
+}
+
+.column a {
+    padding: 0 15px;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.header-conter {
+    position: absolute;
+    left: 50%;
+    margin-top: 250px;
+    margin-left: -130px;
+    text-align: center;
+}
+
+.header-conter img {
+    width: 350px;
+    height: 77.78px;
+}
+
+.header-conter span a {
+    display: inline-block;
+    margin: 15px;
+    width: 145px;
+    height: 40px;
+    line-height: 42px;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+}
+
+.stop {
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    width: 32px;
+    height: 32px;
+    background: url(../img/暂停键.png);
+}
+
+.main-1 {
+    text-align: center;
+}
+
+.main {
+    position: relative;
+}
+
+.main-1 h1 {
+    margin: 40px;
+    font-size: 50px;
+}
+
+.main-1 img {
+    display: inline-block;
+    padding: 10px;
+    width: 370px;
+    height: 205px;
+}
+
+.news a {
+    display: inline-block;
+    margin: 15px;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(89, 138, 245);
+}
+
+.main-2 {
+    position: relative;
+    height: 500px;
+    background: url(../img/背景图4.jpg)no-repeat center;
+}
+
+.introduce {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    width: 500px;
+    height: 250px;
+}
+
+.introduce h1 {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.introduce h2 {
+    font-size: 28px;
+    padding: 10px;
+}
+
+.introduce p {
+    font-size: 20px;
+}
+
+.introduce a {
+    display: inline-block;
+    margin: 15px 0;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+}
+
+.main-3 {
+    position: relative;
+    height: 1100px;
+    text-align: center;
+    background: url(../img/背景5.jpg)no-repeat top center;
+}
+
+.characteristic {
+    margin: 0 auto;
+    padding: 80px;
+    width: 600px;
+}
+
+.characteristic h1 {
+    padding: 20px;
+    font-size: 58px;
+    font-style: italic;
+}
+
+.characteristic p {
+    font-size: 20px;
+}
+
+.main-3 .Model {
+    text-align: center;
+    height: 200px;
+    background-color: rgba(42, 55, 81, 0.8);
+}
+
+.Model h1 {
+    margin-left: 50%;
+    padding: 20px;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+}
+
+.Model p {
+    margin-left: 60%;
+    padding: 10px;
+    width: 420px;
+    color: white;
+}
+
+.Model-img {
+    position: absolute;
+    width: 746px;
+    height: 440px;
+    left: 400px;
+    top: 240px;
+    background: url(../img/1_images_v2_home_overlay_ana.png)no-repeat center;
+    background-size: 20%;
+}
+
+.hero-nav {
+    margin: 150px auto;
+    width: 1190px;
+    background-repeat: no-repeat;
+}
+
+.hero li {
+    float: left;
+    list-style: none;
+}
+
+.hero li div {
+    margin: 5px;
+    transform: skewX(-10deg);
+    width: 80px;
+    height: 78px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    background-size: auto 100%;
+}
+
+.hero-nav li a {
+    width: 82px;
+    height: 115px;
+    text-decoration: none;
+}
+
+.hero-nav li :hover {
+    transform: scale(1.2);
+    background-color: orange;
+}
+
+.hero-nav li a span {
+    display: block;
+    color: black;
+}
+
+.main-4 {
+    text-align: center;
+    height: 280px;
+    background: url(../img/main-4背景图.jpg)no-repeat center;
+}
+
+.main-4 h1 {
+    font-size: 50px;
+    padding-top: 50px;
+    font-style: italic;
+}
+
+.main-4 p {
+    font-size: 24px;
+    padding: 30px;
+}
+
+.main-4 a {
+    display: inline-block;
+    padding: 6px 30px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pig-img {
+    position: absolute;
+    width: 680px;
+    height: 370px;
+    right: 0;
+    bottom: 0;
+    background: url(../img/1_assets_img_pages_home_brigitte-shoulder-flail.png)no-repeat center;
+}
+
+.footer {
+    height: 400px;
+    background-color: rgb(45, 40, 40);
+}
+
+.footer-conter {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.footer-conter p a span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.footer-conter p {
+    padding: 40px 0;
+}
+
+.footer-conter p a {
+    color: white;
+}
+
+.icon-1 {
+    background: url(../img/1_images_common_sprite-24-blue.png)145px 1px;
+}
+
+.icon-2 {
+    background: url(../img/1_images_common_sprite-24-blue.png)-145px -23px;
+}
+
+.icon-3 {
+    background: url(../img/1_images_common_sprite-24-blue.png)-24px -119px;
+}
+
+.logo-1 {
+    display: inline-block;
+    width: 140px;
+    height: 72px;
+    background: url(../img/footer-img2.png);
+}
+
+.logo-2 {
+    display: inline-block;
+    width: 125px;
+    height: 43px;
+    background: url(../img/footer-img1.png);
+}

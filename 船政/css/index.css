@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+body {
+    background-color: #eaf7fe;
+}
+
+.header {
+    height: 569px;
+    background: url('../img/mainbg.jpg') no-repeat center;
+}
+
+.logo {
+    margin: 0 auto;
+    padding: 28px;
+    width: 1000px;
+    height: 68px;
+}
+
+.logo a img {
+    width: 399px;
+    height: 68px;
+}
+
+.header-nav {
+    width: 100%;
+    background-color: rgb(114, 161, 248);
+}
+
+.nav {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: rgb(114, 161, 248);
+}
+
+.nav li {
+    float: left;
+    padding: 10px 25px;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-img {
+    margin: 0 auto;
+    width: 1000px;
+    height: 307px;
+}
+
+.header-img img {
+    width: 100%;
+    height: 400px;
+}
+
+.main {
+    margin: 30px auto;
+    width: 1000px;
+}
+
+.main-nav-1,
+.main-nav-2 {
+    font-size: 14px;
+}
+
+.main-nav-3 {
+    font-size: 14px;
+}
+
+.main-nav-1 li {
+    padding: 5px;
+}
+
+.main-nav-2 li {
+    padding: 5px;
+}
+
+.main-nav-3 li {
+    padding: 5px;
+}
+
+.main-nav-1 span {
+    float: right;
+}
+
+.main-nav-2 span {
+    float: right;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-top-1 {
+    height: 35px;
+    border-bottom: solid 2px blue;
+}
+
+.main-top-2 {
+    margin-top: 25px;
+}
+
+.main-top-3 {
+    width: 340px;
+    background-color: rgb(240, 221, 221);
+}
+
+.main-top-3 a {
+    line-height: 40px;
+}
+
+.notification {
+    margin: 20px 0;
+    width: 1000px;
+}
+
+.tt {
+    width: 600px;
+    height: 200px;
+}
+
+.main-left-1 {
+    height: 30px;
+    border-bottom: solid 2px blue;
+}
+
+.main-left-2 {
+    width: 300px;
+    height: 190px;
+    color: white;
+    background-color: rgb(10, 180, 247);
+}
+
+.main-bottom-1 {
+    width: 600px;
+    height: 190px;
+}
+
+.main-bottom-2 {}
+
+.main-bottom-2 span {
+    display: block;
+    margin: 20px 0;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background-color: rgb(153, 120, 120);
+}
+
+.pp {
+    height: 30px;
+    border-bottom: solid 2px blue;
+}
+
+.main-nav-3 span {
+    float: right;
+}
+
+.footer {
+    margin-top: 70px;
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: rgb(114, 161, 248);
+}
+
+.footer .kk {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.form {
+    padding: 10px 0;
+}
+
+.form select {
+    color: white;
+    background-color: rgb(114, 161, 248);
+}
+
+.qr {
+    margin: 30px 0;
+}

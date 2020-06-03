@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.header {
+    text-align: center;
+    height: 58px;
+    background-color: rgb(25, 29, 58);
+}
+
+.logo {
+    margin-left: 250px;
+    padding: 0 30px;
+}
+
+.nav {}
+
+.nav li {
+    float: left;
+    border-left: solid 1px #252947;
+    line-height: 58px;
+    list-style: none;
+}
+
+.nav li:hover {
+    background-color: #252947;
+}
+
+.nav a {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.join {
+    margin: 15px;
+    width: 84px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.join a {
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.join a:hover {
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.banner {
+    position: relative;
+    height: 465px;
+    background: url(../img/banner.jpg)no-repeat center;
+}
+
+.banner ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+    width: 110px;
+    height: 15px;
+}
+
+.banner ul li {
+    float: left;
+    margin: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    list-style: none;
+}
+
+.trailer {
+    padding: 50px 0 10px 0;
+    text-align: center;
+}
+
+.trailer figure {
+    display: inline-block;
+    padding: 10px;
+}
+
+.trailer figure a {
+    text-decoration: none;
+    color: red;
+}
+
+.news {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 1000px;
+    border-top: 1px solid black;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 130px;
+    background: url(../img/bynewsbg.jpg);
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.more {
+    width: 500px;
+    height: 130px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.more a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid red;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.left ul li {
+    list-style: none;
+    height: 50px;
+}
+
+.left ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    height: 75px;
+    background-color: #191D3A;
+}
+
+.footer ul {
+    margin-left: 250px;
+}
+
+.footer ul li {
+    float: left;
+    margin-top: 25px;
+    width: 100px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    list-style: none;
+    line-height: 25px;
+}
+
+.footer ul li:first-child {
+    border-right: 1px solid white;
+}
+
+.footer img {
+    float: right;
+    margin-right: 200px;
+    height: 75px;
+}

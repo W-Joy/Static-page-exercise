@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.header {
+    background-color: black;
+}
+
+.nav {
+    height: 73px;
+}
+
+.logo {
+    float: left;
+    margin-left: 300px;
+}
+
+.top-nav ul li {
+    float: left;
+    padding: 26px;
+    list-style: none;
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-nav ul li a:hover {
+    color: orange;
+}
+
+.banner {
+    height: 725px;
+    background: url(".././images/banner01.jpg")no-repeat center;
+}
+
+.banner:hover {
+    background: url("../images/banner.jpg")no-repeat center;
+    transition: 2s;
+}
+
+.outline {
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(14, 186, 238);
+}
+
+.activity {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.main-nav li a img {
+    padding: 10px;
+}
+
+.main-nav li :hover {
+    transform: scale(1.1);
+}
+
+.mv {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+}
