@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+    content: '';
+}
+
+.header {
+    position: relative;
+    height: 827px;
+    background: url(../img/header_bg.jpg) no-repeat center;
+}
+
+.introduce {
+    position: absolute;
+    top: 430px;
+    right: 200px;
+    width: 630px;
+    height: 165px;
+    background: url(../img/icon3.png);
+}
+
+.introduce a {
+    display: block;
+    margin: -100px;
+    width: 80px;
+    height: 220px;
+    background: url(../img/btn.png)-5px -5px;
+}
+
+.introduce a :hover {
+    background: url(../img/btn.png)-90px -5px;
+}
+
+.introduce p {
+    padding: 20px 0 0 120px;
+    width: 440px;
+    color: white;
+    text-align: left;
+}
+
+.section-one {
+    position: relative;
+    text-align: center;
+    background: url(../img/section1_bg.jpg) no-repeat center;
+    height: 1015px;
+}
+
+.section-one .shade {
+    position: absolute;
+    width: 1200px;
+    height: 559px;
+    left: 10%;
+    top: 25%;
+    background: url(../img/big1_pic1.jpg);
+}
+
+.arrow {
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 86px;
+    top: 50%;
+    margin-top: -43px;
+}
+
+.prev {
+    left: 50px;
+    background: url(../img/arrow.png) -2px -104px;
+}
+
+.next {
+    right: 50px;
+    background: url(../img/arrow.png) -96px -104px;
+}
+
+.prev:hover {
+    background: url(../img/arrow.png) -49px -104px;
+}
+
+.next:hover {
+    background: url(../img/arrow.png)-143px -104px;
+}
+
+.slideshow {
+    position: absolute;
+    left: 10%;
+    bottom: 0px;
+    text-align: center;
+}
+
+.slideshow li {
+    /* display: inline-block; */
+    float: left;
+    padding: 45px 28px;
+    list-style: none;
+    /* background: url(../img/icon3.png) -2px -231px; */
+}
+
+.section-two {
+    position: relative;
+    background: url(../img/section2_bg.jpg) no-repeat center;
+    height: 1080px;
+}
+
+.section-two .hero {
+    position: absolute;
+    width: 1200px;
+    height: 559px;
+    left: 10%;
+    top: 25%;
+    background: url(../img/big2_pic1.jpg);
+}
+
+.hero-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+}
+
+.hero-nav li {
+    display: inline-block;
+    margin: 20px;
+    width: 142px;
+    height: 144px;
+}
+
+.hero-nav :first-child {
+    background: url(../img/icon2.png) -2px -2px;
+}
+
+.hero-nav :nth-child(2) {
+    background: url(../img/icon2.png) 288px -2px;
+}
+
+.hero-nav :nth-child(3) {
+    background: url(../img/icon2.png) 432px 146px;
+}
+
+.hero-nav :last-child {
+    background: url(../img/icon2.png) 144px -2px;
+}
+
+.hero-nav :first-child:hover {
+    background: url(../img/icon2.png) -146px -2px;
+}
+
+.hero-nav :nth-child(2):hover {
+    background: url(../img/icon2.png) -2px 146px;
+}
+
+.hero-nav :nth-child(3):hover {
+    background: url(../img/icon2.png) 288px 146px;
+}
+
+.hero-nav :last-child:hover {
+    background: url(../img/icon2.png) 144px 146px;
+}
+
+.section-three {
+    position: relative;
+    background: url(../img/section3_bg.jpg) no-repeat center;
+    height: 1248px;
+}
+
+.section-three .skill {
+    position: absolute;
+    width: 1200px;
+    height: 675px;
+    left: 10%;
+    top: 25%;
+    background: url(../img/big3_pic1.jpg);
+}
+
+.skill-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+}
+
+.skill-nav li {
+    display: inline-block;
+    margin: 20px;
+    width: 162px;
+    height: 181px;
+}
+
+.skill-nav :first-child {
+    background: url(../img/icon.png) -2px -1px;
+}
+
+.skill-nav :nth-child(2) {
+    background: url(../img/icon.png) -330px -3px;
+}
+
+.skill-nav :nth-child(3) {
+    background: url(../img/icon.png) 492px -185px;
+}
+
+.skill-nav :nth-child(4) {
+    background: url(../img/icon.png) 164px -1px;
+}
+
+.skill-nav :nth-child(5) {
+    background: url(../img/icon.png) 656px -367px;
+}
+
+.skill-nav :last-child {
+    background: url(../img/icon.png) 327px -367px;
+}
+
+.skill-nav :first-child:hover {
+    background: url(../img/icon.png) 492px -1px;
+}
+
+.skill-nav :nth-child(2):hover {
+    background: url(../img/icon.png) -2px -186px;
+}
+
+.skill-nav :nth-child(3):hover {
+    background: url(../img/icon.png) 328px -185px;
+}
+
+.skill-nav :nth-child(4):hover {
+    background: url(../img/icon.png) 164px 367px;
+}
+
+.skill-nav :nth-child(5):hover {
+    background: url(../img/icon.png) 492px -367px;
+}
+
+.skill-nav :last-child:hover {
+    background: url(../img/icon.png) 163px -367px;
+}
+
+.section-four {
+    position: relative;
+    background: url(../img/section4_bg.jpg) no-repeat center;
+    height: 987px;
+}
+
+.section-four .plot {
+    position: absolute;
+    width: 1200px;
+    height: 559px;
+    left: 10%;
+    top: 25%;
+    background: url(../img/big4_pic1.jpg);
+}
+
+.section-five {
+    position: relative;
+    background: url(../img/section5_bg.jpg) no-repeat center;
+    height: 680px;
+}
+
+.Notice {
+    margin: 0 auto;
+    padding-top: 260px;
+    width: 1200px;
+    height: 340px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    width: 400px;
+}
+
+.right span {
+    float: right;
+}
+
+.right li {
+    color: white;
+    line-height: 60px;
+}
+
+.more {
+    text-align: center;
+    list-style: none;
+}
+
+.more a {
+    padding: 7px 33px;
+    color: white;
+    background: url(../img/icon3.png) -406px -169px no-repeat;
+    text-decoration: none;
+}

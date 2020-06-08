@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.header {
+    padding: 0 100px;
+    height: 100px;
+    background-color: #d2d9d9;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100px;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(../img/1.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.more {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+.more h1 {
+    padding: 60px 0;
+    color: white;
+    font-size: 40px;
+}
+
+.more a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: orange;
+    transition: 0.8s;
+}
+
+.more a:hover {
+    color: black;
+    background-color: white;
+}
+
+.contact {
+    text-align: center;
+    height: 230px;
+}
+
+.contact figure {
+    display: inline-block;
+    padding: 50px 40px 20px;
+}
+
+.contact figure :hover {
+    transform: translateY(-10px);
+}
+
+.contact figure img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact figure figcaption {
+    padding: 20px;
+    color: gray;
+}
+
+.activity {
+    height: 500px;
+    text-align: center;
+}
+
+.activity p {
+    margin: auto;
+    width: 560px;
+    word-spacing: 8px;
+    font-size: 23px;
+    font-style: italic;
+    color: gray;
+}
+
+.activity p::before {
+    content: '"';
+    font-size: 2.2em;
+}
+
+.activity p::after {
+    content: '"';
+    font-size: 2.2em;
+}
+
+.activity figure {
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+.activity figure img {
+    width: 310px;
+    height: 260px;
+}
+
+.activity figure span {
+    padding: 5px 0;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.activity figure:hover {
+    box-shadow: 0 0 30px 5px red;
+}
+
+.work {
+    height: 780px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.work h1 {
+    padding: 40px 0;
+    color: gray;
+}
+
+.work figure {
+    display: inline-block;
+    padding: 5px;
+}
+
+.work figure img {
+    width: 470px;
+    height: 480px;
+}
+
+.work figure figcaption {
+    padding-top: 10px;
+    width: 470px;
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+    background-color: rgb(41, 44, 53);
+}

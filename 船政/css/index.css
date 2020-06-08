@@ -26,9 +26,13 @@ body {
     background: url('../img/mainbg.jpg') no-repeat center;
 }
 
-.logo {
-    margin: 0 auto;
+.head {
+    margin: auto;
+    width: 1000px;
     padding: 28px;
+}
+
+.logo {
     width: 1000px;
     height: 68px;
 }
@@ -74,6 +78,10 @@ body {
 .main {
     margin: 30px auto;
     width: 1000px;
+}
+
+.main-nav-1 {
+    width: 660px;
 }
 
 .main-nav-1,
@@ -147,10 +155,43 @@ a {
 }
 
 .main-left-2 {
+    position: relative;
     width: 300px;
     height: 190px;
     color: white;
-    background-color: rgb(10, 180, 247);
+    /* background-color: rgb(10, 180, 247); */
+}
+
+.guide {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(9, 42, 185);
+}
+
+.guide h3 {
+    margin-top: 80px;
+}
+
+.guide-nav {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    width: 65%;
+    height: 100%;
+    background-color: rgb(18, 128, 231);
+}
+
+.guide-nav li {
+    list-style: none;
+    text-align: center;
+    padding: 8px;
+}
+
+.media {
+    width: 1000px;
 }
 
 .main-bottom-1 {
@@ -158,7 +199,9 @@ a {
     height: 190px;
 }
 
-.main-bottom-2 {}
+.main-bottom-2 {
+    float: right;
+}
 
 .main-bottom-2 span {
     display: block;
@@ -171,6 +214,7 @@ a {
 }
 
 .pp {
+    width: 600px;
     height: 30px;
     border-bottom: solid 2px blue;
 }
@@ -182,7 +226,7 @@ a {
 .footer {
     margin-top: 70px;
     width: 100%;
-    height: 200px;
+    height: 160px;
     color: white;
     background-color: rgb(114, 161, 248);
 }
@@ -199,6 +243,14 @@ a {
 .form select {
     color: white;
     background-color: rgb(114, 161, 248);
+}
+
+.address img {
+    display: inline-block;
+}
+
+.address p {
+    display: inline-block;
 }
 
 .qr {
