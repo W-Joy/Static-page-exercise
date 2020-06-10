@@ -10,15 +10,15 @@
 }
 
 .header {
-    position: relative;
     height: 827px;
     background: url(../img/header_bg.jpg) no-repeat center;
 }
 
 .introduce {
-    position: absolute;
-    top: 430px;
-    right: 200px;
+    position: relative;
+    margin: 0 auto;
+    top: 40%;
+    left: 200px;
     width: 630px;
     height: 165px;
     background: url(../img/icon3.png);
@@ -26,55 +26,53 @@
 
 .introduce a {
     display: block;
-    margin: -100px;
+    margin: -50px;
     width: 80px;
     height: 220px;
     background: url(../img/btn.png)-5px -5px;
 }
 
-.introduce a :hover {
+.introduce a:hover {
     background: url(../img/btn.png)-90px -5px;
 }
 
 .introduce p {
-    padding: 20px 0 0 120px;
+    margin: -180px 0 0 100px;
     width: 440px;
     color: white;
     text-align: left;
 }
 
 .section-one {
-    position: relative;
     text-align: center;
     background: url(../img/section1_bg.jpg) no-repeat center;
     height: 1015px;
 }
 
 .section-one .shade {
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
+    top: 25%;
     width: 1200px;
     height: 559px;
-    left: 10%;
-    top: 25%;
     background: url(../img/big1_pic1.jpg);
 }
 
 .arrow {
-    position: absolute;
-    display: block;
+    display: inline-block;
     width: 45px;
     height: 86px;
-    top: 50%;
-    margin-top: -43px;
 }
 
 .prev {
-    left: 50px;
+    float: left;
+    margin: 20% 0 0 -10%;
     background: url(../img/arrow.png) -2px -104px;
 }
 
 .next {
-    right: 50px;
+    float: right;
+    margin: 20% -10% 0 0;
     background: url(../img/arrow.png) -96px -104px;
 }
 
@@ -87,9 +85,7 @@
 }
 
 .slideshow {
-    position: absolute;
-    left: 10%;
-    bottom: 0px;
+    margin: 270px auto;
     text-align: center;
 }
 
@@ -102,24 +98,22 @@
 }
 
 .section-two {
-    position: relative;
     background: url(../img/section2_bg.jpg) no-repeat center;
     height: 1080px;
 }
 
 .section-two .hero {
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
+    top: 25%;
     width: 1200px;
     height: 559px;
-    left: 10%;
-    top: 25%;
     background: url(../img/big2_pic1.jpg);
 }
 
 .hero-nav {
-    position: absolute;
-    bottom: 20px;
-    left: 400px;
+    margin: 300px auto;
+    text-align: center;
 }
 
 .hero-nav li {
@@ -162,24 +156,22 @@
 }
 
 .section-three {
-    position: relative;
     background: url(../img/section3_bg.jpg) no-repeat center;
     height: 1248px;
 }
 
 .section-three .skill {
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
+    top: 25%;
     width: 1200px;
     height: 675px;
-    left: 10%;
-    top: 25%;
     background: url(../img/big3_pic1.jpg);
 }
 
 .skill-nav {
-    position: absolute;
-    bottom: 20px;
-    left: 140px;
+    margin: 320px auto;
+    text-align: center;
 }
 
 .skill-nav li {
@@ -238,22 +230,20 @@
 }
 
 .section-four {
-    position: relative;
     background: url(../img/section4_bg.jpg) no-repeat center;
     height: 987px;
 }
 
 .section-four .plot {
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
+    top: 30%;
     width: 1200px;
     height: 559px;
-    left: 10%;
-    top: 25%;
     background: url(../img/big4_pic1.jpg);
 }
 
 .section-five {
-    position: relative;
     background: url(../img/section5_bg.jpg) no-repeat center;
     height: 680px;
 }

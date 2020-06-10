@@ -23,8 +23,12 @@
     background-color: rgb(25, 29, 58);
 }
 
+.head {
+    margin: 0 auto;
+    width: 1000px;
+}
+
 .logo {
-    margin-left: 250px;
     padding: 0 30px;
 }
 
@@ -52,8 +56,6 @@
     margin: 15px;
     width: 84px;
     height: 30px;
-    border-radius: 5px;
-    background-color: green;
 }
 
 .join a {
@@ -62,10 +64,11 @@
     font-size: 12px;
     text-decoration: none;
     line-height: 30px;
+    background-color: green;
+    border-radius: 5px;
 }
 
 .join a:hover {
-    border-radius: 5px;
     background-color: orange;
 }
 
@@ -92,6 +95,10 @@
     border-radius: 50%;
     background-color: red;
     list-style: none;
+}
+
+.banner ul li:hover {
+    background-color: violet;
 }
 
 .trailer {
@@ -143,6 +150,11 @@
     border-radius: 5px;
 }
 
+.more a:hover {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
 .left ul li {
     list-style: none;
     height: 50px;
@@ -158,11 +170,12 @@
     background-color: #191D3A;
 }
 
-.footer ul {
-    margin-left: 250px;
+.foot {
+    margin: 0 auto;
+    width: 1000px;
 }
 
-.footer ul li {
+.foot ul li {
     float: left;
     margin-top: 25px;
     width: 100px;
@@ -173,12 +186,11 @@
     line-height: 25px;
 }
 
-.footer ul li:first-child {
+.foot ul li:first-child {
     border-right: 1px solid white;
 }
 
-.footer img {
+.foot img {
     float: right;
-    margin-right: 200px;
     height: 75px;
 }
