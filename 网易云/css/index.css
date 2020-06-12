@@ -8,8 +8,18 @@ a {
     text-decoration: none;
 }
 
+.clearfix {
+    display: table;
+    content: '';
+    clear: both;
+}
+
 .fl {
     float: left;
+}
+
+.fr {
+    float: right;
 }
 
 .header {
@@ -20,6 +30,13 @@ a {
 .head {
     margin: 0 auto;
     width: 1100px;
+    height: 70px;
+}
+
+.logo {
+    width: 177px;
+    height: 70px;
+    background: url(../img/logo.png.png);
 }
 
 .nav ul li {
@@ -33,9 +50,7 @@ a {
     background-color: black;
 }
 
-.form {
-    /* height: 70px; */
-}
+.form {}
 
 .form input:first-child {
     margin-top: 19px;
@@ -50,4 +65,353 @@ a {
     color: white;
     background: #242424;
     border-radius: 32px;
+}
+
+.nav-one {
+    width: 100%;
+    height: 35px;
+    background-color: red;
+}
+
+.nav-one ul {
+    margin: 0 auto;
+    padding: 0 0 0 220px;
+    width: 888px;
+    height: 35px;
+}
+
+.nav-one ul li {
+    float: left;
+    padding: 0 30px;
+    line-height: 35px;
+    list-style: none;
+}
+
+.banner {
+    height: 285px;
+    background: url("http://p1.music.126.net/yy7eUDaXhi-6j3l72nN7dw==/109951165054243771.jpg?imageView&blur=40x20") center center;
+    background-size: 6000px;
+}
+
+.wrap {
+    margin: 35px auto;
+    width: 985px;
+    height: 285px;
+}
+
+.wrap img {
+    width: 730px;
+}
+
+.download {
+    position: relative;
+    display: inline-block;
+    margin-left: -5px;
+    width: 254px;
+    height: 285px;
+    background: url(../img/download.png);
+}
+
+.download span {
+    position: absolute;
+    font-size: 10px;
+    left: 35px;
+    bottom: 10px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 980px;
+    height: 1425px;
+}
+
+.left {
+    padding: 20px 20px;
+    width: 688px;
+    height: 1330px;
+    border: 1px solid #d3d3d3;
+}
+
+.left-top::before {
+    position: absolute;
+    content: '';
+    width: 34px;
+    height: 34px;
+    left: 0;
+    background: url(../img/index.png) -225px -156px;
+}
+
+.left-top {
+    position: relative;
+    padding: 0 10px 0 34px;
+    /* text-align: center; */
+    border-bottom: 2px solid red;
+}
+
+.left-top h2 {
+    display: inline;
+}
+
+.left-top span {
+    padding: 0 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.left-two {
+    margin: 20px 0;
+}
+
+.left-two figure {
+    float: left;
+    padding: 0 16px 30px 16px;
+}
+
+.left-two figure figcaption {
+    width: 140px;
+    height: 38.4px;
+    font-size: 14px;
+}
+
+.left-three::before {
+    position: absolute;
+    content: '';
+    width: 34px;
+    height: 34px;
+    left: 0;
+    background: url(../img/index.png) -225px -156px;
+}
+
+.left-three {
+    position: relative;
+    padding: 0 10px 0 34px;
+    /* text-align: center; */
+    border-bottom: 2px solid red;
+}
+
+.left-four {
+    margin: 20px 0;
+    height: 180px;
+    background: #f5f5f5;
+    border: 1px solid #d3d3d3;
+}
+
+.left-four figure {
+    float: left;
+    padding: 18px;
+}
+
+.left-five::before {
+    position: absolute;
+    content: '';
+    width: 34px;
+    height: 34px;
+    left: 0;
+    background: url(../img/index.png) -225px -156px;
+}
+
+.left-five {
+    position: relative;
+    margin-top: 40px;
+    padding: 0 10px 0 34px;
+    /* text-align: center; */
+    border-bottom: 2px solid red;
+}
+
+.song {
+    margin: 30px 0 50px;
+}
+
+.song ol {
+    float: left;
+    width: 226px;
+    height: 461px;
+    border: 1px solid #d3d3d3;
+}
+
+.song ol li {
+    line-height: 32px;
+    list-style: none;
+}
+
+.song ol li h4 {
+    /* display: inline; */
+}
+
+.song ol li img {
+    width: 80px;
+    height: 80px;
+}
+
+.song ol li a {
+    color: black;
+}
+
+.song ol li span {
+    margin: 0 10px;
+}
+
+.li-top {
+    padding: 20px 0 0 19px;
+}
+
+.li-top span {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+}
+
+.li-top span:first-child {
+    background: url(../img/iconall.png) 0 10010px;
+}
+
+.li-top span:last-child {
+    background: url(../img/iconall.png) -372px -215px;
+}
+
+.song ol li:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.right {
+    width: 248px;
+    height: 1370px;
+    border: 1px solid #d3d3d3;
+}
+
+.Sign {
+    height: 126px;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: silver;
+    box-shadow: 0 0 3px 2px gray;
+}
+
+.Sign p {
+    margin: 0 auto;
+    padding: 22px 0;
+    width: 205px;
+    font-size: 13px;
+}
+
+.Sign a {
+    padding: 5px 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.music h5 {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 210px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.music-nav {
+    text-align: -webkit-center;
+}
+
+.music-nav li div:first-child {
+    float: left;
+}
+
+.music-nav li div:last-child {
+    float: right;
+    padding-left: 14px;
+}
+
+.music-nav li {
+    margin-top: 14px;
+    width: 210px;
+    height: 66px;
+    list-style: none;
+    border: 1px solid #d3d3d3;
+}
+
+.apply {
+    margin: 15px auto;
+    width: 210px;
+    height: 31px;
+    text-align: center;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.anchor h5 {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 210px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.apply a {
+    line-height: 31px;
+    color: black;
+}
+
+.apply-nav {
+    text-align: -webkit-center;
+}
+
+.apply-nav li div:first-child {
+    float: left;
+}
+
+.apply-nav li div:last-child {
+    float: right;
+    padding-left: 14px;
+    text-align: left;
+}
+
+.apply-nav li div:last-child p {
+    font-size: 12px;
+}
+
+.apply-nav li {
+    margin-top: 14px;
+    width: 210px;
+    height: 40px;
+    list-style: none;
+}
+
+.footer {
+    margin-top: -54px;
+    border-top: 2px solid #d3d3d3;
+}
+
+.foot {
+    margin: 30px auto;
+    width: 980px;
+}
+
+.foot-nav li {
+    float: left;
+    padding: 0 20px;
+    list-style: none;
+    border-right: 1px solid gray;
+}
+
+.foot-nav li a {
+    font-size: 14px;
+    color: black;
+}
+
+.foot p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.foot-navone li {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+}
+
+.foot-navone li a {
+    display: block;
+    width: 50px;
+    height: 45px;
+    background: url(../img/foot_enter_new.png) -59px -101px;
+    background-size: 110px 450px;
 }
