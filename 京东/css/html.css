@@ -11,14 +11,362 @@
     float: right;
 }
 
-.header {
-    margin: 0 auto;
-    width: 1280px;
+.clearfix {
+    display: table;
+    clear: both;
+    content: '';
 }
 
-.header-nav ul li {
-    float: left;
+a {
+    text-decoration: none;
+}
+
+ul li {
     list-style: none;
 }
 
-.topbanner {}
+.head {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 1210px;
+}
+
+.head-nav ul li {
+    float: left;
+    padding: 0 5px;
+    border-right: 1px solid #ddd;
+}
+
+.head-nav ul li:last-child {
+    border-right: none;
+}
+
+.head-nav ul li a {
+    font-size: 12px;
+}
+
+.top-banner {
+    background-color: #8A25C6;
+}
+
+.top-banner-one {
+    margin: 0 auto;
+    width: 1210px;
+}
+
+.logos {
+    margin: 0 auto;
+    width: 1210px;
+    height: 96px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form input:first-child {
+    width: 458px;
+    height: 30px;
+    border: 2px solid red;
+}
+
+.form input:last-child {
+    margin-left: -4px;
+    width: 80px;
+    height: 33px;
+    background-color: red;
+    border: 2px solid red;
+}
+
+.logos-nav {
+    margin-top: 10px;
+}
+
+.logos-nav ul li {
+    float: left;
+    padding: 0 5px;
+    font-size: 13px;
+    color: gray;
+}
+
+.car {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.car a {
+    padding: 10px 15px;
+    line-height: 40px;
+}
+
+.top {
+    margin-top: 10px;
+    border-bottom: 2px solid red;
+}
+
+.bike {
+    margin: 0 auto;
+    width: 1210px;
+}
+
+.top-nav li {
+    float: left;
+    padding: 0 20px;
+    line-height: 48px;
+}
+
+.top-nav li:first-child {
+    width: 170px;
+    background-color: red;
+}
+
+.main {
+    background: url(../img/banner_bg.jpg) top center no-repeat;
+}
+
+.subject {
+    margin: 0 auto;
+    width: 1210px;
+    height: 466px;
+}
+
+.side {
+    width: 210px;
+}
+
+.side ul li {
+    padding: 5px 20px 0;
+    width: 170px;
+    height: 26px;
+    background-color: red;
+}
+
+.side ul li span {
+    float: right;
+}
+
+.side ul li a {
+    font-size: 14px;
+}
+
+.Dots {
+    position: relative;
+    margin: 0 10px;
+    width: 730px;
+    height: 466px;
+    background: url(../img/slider1.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+.Dots ul {
+    position: absolute;
+    margin-left: -75px;
+    left: 50%;
+    bottom: 10px;
+}
+
+.Dots ul li {
+    float: left;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.right {
+    width: 246px;
+    height: 466px;
+    border: 1px solid gray;
+}
+
+.right-top {
+    padding: 5px 10px;
+}
+
+.right-top h5 {
+    padding: 14px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.right-top h5 a {
+    float: right;
+    font-size: 12px;
+}
+
+.right-top p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.right-center {
+    margin-top: 10px;
+    padding-left: 10px;
+    height: 44px;
+    font-size: 13px;
+    line-height: 44px;
+    border-top: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+}
+
+.icon li {
+    float: left;
+    padding: 27px 18px 27px 17px;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.icon li a span {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.icon li:first-child a span {
+    background: url(../img/icon_lifeserv.png);
+}
+
+.icon li:nth-child(2) a span {
+    background: url(../img/icon_lifeserv.png)0 -25px;
+}
+
+.icon li:nth-child(3) a span {
+    background: url(../img/icon_lifeserv.png)0 -50px;
+}
+
+.icon li:nth-child(4) a span {
+    background: url(../img/icon_lifeserv.png)0 -75px;
+}
+
+.icon li:nth-child(5) a span {
+    background: url(../img/icon_lifeserv.png)0 -100px;
+}
+
+.icon li:nth-child(6) a span {
+    background: url(../img/icon_lifeserv.png)0 -125px;
+}
+
+.icon li:nth-child(7) a span {
+    background: url(../img/icon_lifeserv.png)0 150px;
+}
+
+.icon li:nth-child(8) a span {
+    background: url(../img/icon_lifeserv.png)0 -175px;
+}
+
+.icon li:nth-child(9) a span {
+    background: url(../img/icon_lifeserv.png)0 -200px;
+}
+
+.icon li:nth-child(10) a span {
+    background: url(../img/icon_lifeserv.png)0 -225px;
+}
+
+.icon li:nth-child(11) a span {
+    background: url(../img/icon_lifeserv.png)0 -250px;
+}
+
+.icon li:last-child a span {
+    background: url(../img/icon_lifeserv.png)0 -275px;
+}
+
+.pic {
+    margin: 10px auto;
+    width: 1210px;
+}
+
+.pic li {
+    float: left;
+}
+
+.advantage {
+    padding: 25px 0;
+    background: #F5F5F5;
+}
+
+.advantage ul {
+    margin: 0 auto;
+    width: 1210px;
+}
+
+.advantage li {
+    float: left;
+    width: 300px;
+}
+
+.guide {
+    margin: 20px auto;
+    padding-bottom: 50px;
+    width: 1210px;
+    border-bottom: 1px solid #ddd;
+}
+
+.guide dl {
+    width: 198px;
+    height: 158px;
+}
+
+.guide dl dt {
+    font-size: 20px;
+}
+
+.guide dl dt,
+dd {
+    color: #333;
+    margin-top: 5px;
+}
+
+.Map {
+    margin-top: 10px;
+    width: 198px;
+    height: 158px;
+    background: url(../img/china.png) -15px -442px;
+}
+
+.Map p {
+    margin-top: 20px;
+}
+
+.Map span {
+    float: right;
+}
+
+.foot {
+    margin: 0 auto;
+    width: 1210px;
+    text-align: center;
+}
+
+.links {
+    margin: 0 auto;
+    width: 850px;
+}
+
+.links ul li {
+    float: left;
+    padding: 0 10px;
+    font-size: 13px;
+    text-align: center;
+    border-right: 1px solid #333;
+}
+
+.links ul li:last-child {
+    border-right: none;
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 13px;
+}
+
+.messages {
+    margin: 0 auto;
+    width: 620px;
+}
+
+.messages ul li {
+    float: left;
+}
