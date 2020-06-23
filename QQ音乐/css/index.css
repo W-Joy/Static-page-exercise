@@ -1,0 +1,533 @@
+.head {
+    margin: 0 auto;
+    width: 1200px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.top-nav li {
+    float: left;
+    padding: 22px 20px;
+    line-height: 46px;
+}
+
+.top-nav li:first-child {
+    background-color: #31c27c;
+}
+
+.top-nav li:first-child a {
+    color: white;
+}
+
+.top-nav li a {
+    color: black;
+    font-size: 18px;
+}
+
+.form {
+    margin: 24px 0 24px 20px;
+    width: 220px;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+}
+
+.form input {
+    height: 36px;
+    font-size: 14px;
+    color: #c9c9c9;
+    border: none;
+}
+
+.noble {
+    padding: 30px 0;
+}
+
+.noble a {
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+
+.noble a:first-child {
+    color: black;
+}
+
+.noble a:nth-child(2) {
+    color: white;
+    font-size: 13px;
+    background-color: #31c27c;
+    border-radius: 5px;
+}
+
+.noble a:last-child {
+    color: black;
+    font-size: 13px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.top-nav li a:hover {
+    color: #31c27c;
+}
+
+.noble a:first-child:hover {
+    color: #31c27c;
+}
+
+.noble a:nth-child(2):hover {
+    background-color: #2caf6f;
+}
+
+.noble a:last-child:hover {
+    background-color: #ededed;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 1200px;
+    height: 52px;
+}
+
+.nav ul {
+    margin-left: 220px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 23px;
+    line-height: 52px;
+}
+
+.nav li a {
+    color: black;
+}
+
+.nav li a:hover {
+    color: #31c27c;
+}
+
+.outline {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.outline h1 {
+    padding: 50px 0 20px 0;
+}
+
+.recommend {
+    padding: 20px;
+}
+
+.recommend a {
+    padding: 20px;
+    color: black;
+}
+
+.pic ul li {
+    float: left;
+    margin-right: 16px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.pic ul li div {
+    overflow: hidden;
+    width: 224px;
+    height: 224px;
+    transition: 0.3s;
+}
+
+.pic ul li:first-child div {
+    position: relative;
+    background: url("https://qpic.y.qq.com/music_cover/PiajxSqBRaEISibhtdxpkLprufpT7OzywmuYVNIiaMWIeqLv9Eaico0WLA/300?n=1")no-repeat center;
+    background-size: cover;
+}
+
+.pic ul li:nth-child(2) div {
+    position: relative;
+    background: url("https://qpic.y.qq.com/music_cover/J0SdMIyhAqoMF6JibUibJZDoq9CX1nPWh0jeJ5UicU9YsXNlCULPuIYRA/300?n=1");
+    background-size: cover;
+}
+
+.pic ul li:nth-child(3) div {
+    position: relative;
+    background: url(https://qpic.y.qq.com/music_cover/MHkTmaUZD8gX6xa8vmQ2dibMIQnsZR2Nln2WkibfoW7rUsnLLXLpIqvg/300?n=1);
+    background-size: cover;
+}
+
+.pic ul li:nth-child(4) div {
+    position: relative;
+    background: url(https://qpic.y.qq.com/music_cover/8HhavvWNIicpyjlv0UnT5TaibV8Ezj34Wz2m3oe6jSQT7XtjCZPQQwvA/300?n=1);
+    background-size: cover;
+}
+
+.pic ul li:last-child div {
+    position: relative;
+    background: url(https://qpic.y.qq.com/music_cover/uKytb8eUmcTQQriaU7hZRIsVQ5Ir6yBPOzBSLr81eBicrqomrEMPr3RA/300?n=1);
+    background-size: cover;
+}
+
+.pic ul li div::before {
+    position: absolute;
+    margin: -35px 0 0 -35px;
+    content: '';
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 50%;
+    background: url(../img/cover_play.png);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.pic ul li div:hover::before {
+    opacity: 1;
+}
+
+.pic ul li h4 {
+    padding-top: 15px;
+}
+
+.pic ul li span {
+    color: #999;
+}
+
+.spot {
+    padding: 20px 0;
+}
+
+.spot span {
+    display: inline-block;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.spot span:first-child {
+    background-color: gray;
+}
+
+.spot span:last-child {
+    background-color: #ccc;
+}
+
+.spot span:last-child:hover {
+    background-color: gray;
+}
+
+.main-one {
+    background: url(../img/bg_detail.jpg)50% 0 repeat-x;
+}
+
+.main-two {
+    background: url(../img/bg_detail.jpg)50% 0 repeat-x;
+}
+
+.main-three {
+    background: url(../img/bg_detail.jpg)50% 0 repeat-x;
+}
+
+.main-four {
+    background: url(../img/bg_detail.jpg)50% 0 repeat-x;
+}
+
+.main-five {
+    background: url(../img/bg_detail.jpg)50% 0 repeat-x;
+}
+
+.main-six {
+    background: url(../img/bg_detail.jpg)50% 0 repeat-x;
+}
+
+.Starting h1 {
+    padding: 50px 0 20px 0;
+}
+
+.Starting {
+    padding: 20px;
+}
+
+.Starting span {
+    margin-top: -5px;
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+}
+
+.Starting span:hover {
+    background-color: #ededed;
+}
+
+.Starting span::before {
+    display: inline-block;
+    margin-right: 6px;
+    content: '';
+    width: 13px;
+    height: 16px;
+    vertical-align: -3px;
+    background: url(../img/icon_sprite.png);
+    background-position: -60px -220px;
+}
+
+.Starting a {
+    padding: 20px;
+    color: black;
+}
+
+.pic1 ul li {
+    position: relative;
+    float: left;
+    padding-top: 12px;
+    width: 33.333%;
+    text-align: left;
+}
+
+.pic1 ul li a {
+    display: inline-block;
+    width: 86px;
+    height: 86px;
+}
+
+.pic1 ul li div {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+.pic1 ul li span {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    line-height: 86px;
+}
+
+.spot1 ul {
+    margin-left: 460px;
+    padding: 15px 0;
+}
+
+.spot1 ul li {
+    float: left;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.sole h1 {
+    padding: 50px 0 20px 0;
+}
+
+.spot2 ul {
+    margin-left: 525px;
+    padding: 15px 0;
+}
+
+.spot2 ul li {
+    float: left;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.song {
+    padding: 20px;
+}
+
+.song a {
+    padding: 20px;
+    color: black;
+}
+
+.pic2 ul li {
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+
+.pic2 ul li div {
+    padding: 5px 0;
+    text-align: left;
+}
+
+.List li {
+    float: left;
+    margin-right: 15px;
+    width: 224px;
+    height: 500px;
+    background-color: cornsilk;
+}
+
+.MV a {
+    padding: 20px;
+    color: black;
+}
+
+.pic3 ul li {
+    float: left;
+    margin: 10px 16px 10px 0;
+}
+
+.pic3 ul li a {
+    position: relative;
+    display: block;
+    width: 224px;
+    height: 127px;
+}
+
+.pic3 ul li a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pic3 ul li div {
+    text-align: left;
+}
+
+.pic3 ul li div span i {
+    display: inline-block;
+    width: 19px;
+    height: 12px;
+    margin-right: 5px;
+    vertical-align: -1px;
+    background: url(../img/icon_sprite.png);
+    background-position: -180px -20px;
+}
+
+.spot3 ul {
+    margin-left: 530px;
+    padding: 15px 0;
+}
+
+.spot3 ul li {
+    float: left;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.footer {
+    background-color: #333333;
+}
+
+.foot {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    color: #999;
+}
+
+.foot a {
+    color: #999;
+}
+
+.foot-into {
+    width: 1200px;
+}
+
+.foot-into ul li {
+    float: left;
+    text-align: center;
+}
+
+.foot-tit {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 80px 0 46px;
+}
+
+.download ul {
+    margin-left: -29px;
+}
+
+.download ul li span {
+    display: block;
+    margin: 0 29px 12px;
+    width: 48px;
+    height: 48px;
+    background: url(../img/footer.png);
+}
+
+.download ul li:first-child span {
+    width: 37px;
+    background-position: -3px 0;
+}
+
+.download ul li:nth-child(2) span {
+    width: 46px;
+    background-position: -92px 0;
+}
+
+.download ul li:nth-child(3) span {
+    width: 37px;
+    background-position: -190px 0;
+}
+
+.download ul li:last-child span {
+    width: 34px;
+    background-position: -279px 0;
+}
+
+.link {
+    width: 300px;
+}
+
+.link ul li {
+    padding: 5px 0;
+    width: 100px;
+    text-align: left;
+}
+
+.product {
+    position: absolute;
+    top: 0;
+    left: 476px;
+    width: 304px;
+}
+
+.product ul {
+    margin-left: -29px;
+}
+
+.product ul li span {
+    display: block;
+    margin: 0 29px 12px;
+    width: 48px;
+    height: 48px;
+    background: url(../img/footer.png);
+}
+
+.product ul li:first-child span {
+    width: 41px;
+    background-position: -370px 0;
+}
+
+.product ul li:nth-child(2) span {
+    width: 37px;
+    background-position: -463px 0;
+}
+
+.product ul li:last-child span {
+    width: 40px;
+    background-position: -563px 0;
+}
+
+.foot-copy {
+    padding: 50px 0 20px 0;
+    text-align: center;
+}
+
+.foot-copy p {
+    font-size: 12px;
+    line-height: 28px;
+}

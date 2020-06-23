@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+ol,
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
