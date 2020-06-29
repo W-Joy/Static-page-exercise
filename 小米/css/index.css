@@ -241,6 +241,30 @@
     width: 1226px;
 }
 
+.more {
+    position: relative;
+    height: 58px;
+}
+
+.more a {
+    position: absolute;
+    line-height: 58px;
+    top: 0;
+    right: 0;
+}
+
+.more h1 {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    line-height: 58px;
+}
+
 .prev {
     display: inline-block;
     padding: 3px 5px;
@@ -270,31 +294,47 @@
     color: orangered;
 }
 
-.centent-two {
+.note {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.note a {
+    padding-top: 40px;
+    width: 234px;
+    height: 299px;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid red;
+}
+
+.note a img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.note a h3 {
+    margin: 0 10px 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.note a P {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.note a span {
+    margin: 0 10px 14px;
+    color: #ff6700;
+}
+
+.tit {
     padding: 22px 0;
-}
-
-.more {
-    position: relative;
-    height: 58px;
-}
-
-.more h2 {
-    line-height: 58px;
-}
-
-.more span {
-    position: absolute;
-    line-height: 58px;
-    top: 0;
-    right: 0;
-}
-
-.more span::after {
-    width: 12px;
-    height: 12px;
-    content: "\E623";
-    background: url();
 }
 
 .mix {
@@ -302,18 +342,21 @@
 }
 
 .phone {
-    /* width: 1000px; */
+    width: 992px;
 }
 
 .phone ul li {
     float: left;
     width: 234px;
+    height: 300px;
     text-align: center;
+    background-color: white;
+    margin: 0 0 14px 14px;
 }
 
 .phone ul li a img {
     display: block;
-    margin: 0 auto 18px;
+    margin: 20px auto 18px;
 }
 
 .phone ul li a h3 {
@@ -333,4 +376,117 @@
 .phone ul li a span {
     margin: 0 10px 14px;
     color: #ff6700;
+}
+
+.pic {
+    width: 234px;
+    height: 614px;
+}
+
+.tv ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tv ul li {
+    margin-bottom: 14px;
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+.tv ul li:first-child a img {
+    margin-top: 0;
+}
+
+.tv ul li:nth-child(6) a img {
+    margin-top: 0;
+}
+
+.tv ul li a {
+    text-align: center;
+}
+
+.tv ul li a img {
+    display: block;
+    margin: 20px auto 18px;
+}
+
+.tv ul li a h3 {
+    margin: 0 10px 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.tv ul li a P {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.tv ul li a span {
+    margin: 0 10px 14px;
+    color: #ff6700;
+}
+
+.intelligence ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.intelligence ul li {
+    margin-bottom: 14px;
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+.intelligence ul li a img {
+    display: block;
+    margin: 20px auto 18px;
+}
+
+.intelligence ul li a h3 {
+    margin: 0 10px 2px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+
+.intelligence ul li a P {
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.intelligence ul li a span {
+    margin: 0 10px 14px;
+    color: #ff6700;
+}
+
+.intelligence ul li:first-child a img {
+    margin-top: 0;
+}
+
+.intelligence ul li:nth-child(6) a img {
+    margin-top: 0;
+}
+
+.intelligence ul li:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.intelligence ul li:last-child a {
+    background-color: white;
+    height: 143px;
 }
