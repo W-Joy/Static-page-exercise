@@ -61,6 +61,31 @@
             <div class="mi fl">
                 <a href=""></a>
             </div>
+            <script>
+                var mi = document.querySelector('.mi');
+                mi.addEventListener('mouseenter', function() {
+                    anmi(mi, 55);
+                })
+                mi.addEventListener('mouseleave', function() {
+                    mi.style.left = '0px';
+                })
+
+                function anmi() {
+                    clearInterval(obj.timer);
+                    obj.timer = setInterval(function() {
+                        var step = (target - obj.offsetLeft) / 10;
+                        step = step > 0 ? Math.cell(step) : Math.floor(step);
+                        if (obj.offsetLeft == target) {
+                            clearInterval(obj.timer);
+                            if (callback) {
+                                callback();
+                            }
+                        }
+                        obj.style.left = obj.offsetLeft + step + 'px';
+                    }, 10);
+
+                }
+            </script>
             <div class="logo fl">
                 <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7e6765a0f1a6c0319640d3bb8f33be70.gif?w=165&h=55" alt="">
             </div>
@@ -97,6 +122,7 @@
                 <li><a href="">耳机 音响</a></li>
                 <li><a href="">生活 箱包</a></li>
             </ul>
+            <div></div>
         </div>
         <div class="hero">
             <ul class="hero-nav clearfix">
