@@ -235,6 +235,10 @@
     background: url(../img/235-40lxyz\(2\)2.png);
 }
 
+.title {
+    height: 40px;
+}
+
 .title li {
     float: left;
     height: 40px;
@@ -260,7 +264,8 @@
     background: url(../img/nav_title_4x.gif);
 }
 
-.title li:first-child:hover {
+
+/* .title li:first-child:hover {
     background: url(../img/nav_title_1.gif);
 }
 
@@ -274,39 +279,65 @@
 
 .title li:last-child:hover {
     background: url(../img/nav_title_4.gif);
+} */
+
+.tab {
+    font-size: 12px;
 }
 
-.news {
-    height: 440px;
+.tab .hide {
+    display: none;
+}
+
+.pk ul li {
+    padding: 10px;
+}
+
+.centent .tab .show {
+    display: block;
+    width: 100%;
+    height: 400px;
     background-color: rgb(236, 244, 237);
 }
 
-.news li {
-    line-height: 25px;
+.Notice li {
+    margin: 0 20px;
+    line-height: 26px;
 }
 
-.news li span {
+.Notice li span {
     float: right;
     color: #900;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
-.news li a {
+.Notice li a {
     color: black;
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
-.news li a:hover {
+.Notice li a:hover {
     color: red;
 }
 
-.news li img {
+.Notice li img {
+    margin-right: 10px;
     vertical-align: middle;
 }
 
 .loop {
+    overflow: hidden;
+    position: relative;
     margin: 0 auto;
     width: 1200px;
+    height: 99px;
+}
+
+.chart {
+    position: absolute;
+    width: 300%;
+    top: 0;
+    left: 0;
 }
 
 .loop ul li {
